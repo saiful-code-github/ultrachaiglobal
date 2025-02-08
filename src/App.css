@@ -153,6 +153,10 @@ header .nav-item a{
     filter: blur(10px);
     opacity: 0;
 }
+.country-head{
+    position: relative;
+    z-index: -1 !important;
+}
 .slick-prev{
     left: 91.3% !important;
 }
@@ -164,6 +168,7 @@ header .nav-item a{
     width: 45px !important;
     height: 50px !important;
     top: 0 !important;
+    z-index: 3 !important;
 }
 .slick-list{
     overflow-x: clip !important;

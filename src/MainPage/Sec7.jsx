@@ -57,12 +57,12 @@ export const Sec7 = () => {
     ]
     return (
         <section className="country relative mt-[100px]">
-            <img src={boximg} alt="" className="absolute -top-[34%] md:-top-[17%] z-10 left-0 w-[10%] md:w-[22%] box-img"/>
+            <img src={boximg} alt="" className="absolute -top-[34%] md:-top-[17%] z-0 left-0 w-[10%] md:w-[22%] box-img"/>
             <CContainer>
-                 <div className="mb-10 flex justify-center text-center flex-col relative z-20">
+                 <div className="mb-10 country-head flex justify-center text-center flex-col relative z-10">
                     <img src={logo} alt="" className="w-[5%] mx-auto"/>
                     <h3 className="font-medium pt-2" style={{fontSize: "20px", fontFamily: "var(--oswald-font)"}}>WHAT WE DO</h3>
-                    <h2>Countries We are currently Serving</h2>
+                    <h2 className="relative z-0">Countries We are currently Serving</h2>
                  </div>
                  <div className="slider-container">
                     <Slider {...settings}>
